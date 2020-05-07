@@ -16,7 +16,22 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
-
-#bezdratova{
+body{
+    max-width: 1140px;
+}
+#sedy{
+    display: flex;
+    flex-direction: column;
     background-color: lightgray;
+}
+nav{
+    display: flex;
+}
+ul{
+    width: 100%;
+    list-style: none;
+}
+#bezdratova{
+    display: flex;
+    
 }
