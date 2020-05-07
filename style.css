@@ -15,8 +15,71 @@ font-weight: 700;
 */
 
 /* -------------------------------------------------- */
-
-
-#bezdratova{
-    background-color: lightgray;
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
+#sedy{
+    background-color:#f5f5f5;
+    padding: 0 50px 0 50px;
+}
+nav{
+    font-size: 13px;
+    color: #959595;
+}
+.logo{
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+li{
+    margin: 50px 0 50px 0;
+    padding: 5px 15px 5px 15px;
+}
+.koupit{
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color:#3498db;
+    border-radius: 10px;
+}
+#sluchatka{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+}
+#vyzkouset{
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+}
+#bezdratova{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    max-width: 420px;
+}
+h1{
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.nahorePopis{
+    font-size: 18px;
+    color: #a5a5a5;
+}
+.podrobnosti{
+    font-size: 13px;
+}
+#ruzovaSlecna{
+    position: relative;
+    left: 250px;
+    width: 75%;
+}
+
+
+
